@@ -84,6 +84,18 @@ $brand-info: $light-blue !default;
         @include shadow-big-color($brand-danger);
     }
 
+    [data-background-color="dark-blue"]{
+        background: linear-gradient(60deg, $dark-blue-400, $dark-blue-600);
+    }
+
+    .custom-header {
+        background: linear-gradient(60deg, $dark-blue-400, $dark-blue-600);
+    }
+
+    .navbar {
+        background: linear-gradient(60deg, $dark-blue-400, $dark-blue-600) !important;
+    }
+
     [data-background-color]{
         color: $white-color;
 
